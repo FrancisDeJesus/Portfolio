@@ -1,0 +1,49 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9f9f9;
+  }
+  
+  .fixed-sidebar {
+    height: 100vh;
+    position: fixed;
+    left: 0;
+    top: 0;
+  }
+  
+  .content-area {
+    background-color: white;
+    padding: 50px 60px; /* Top-Bottom: 50px, Left-Right: 60px */
+    }
+
+    /* Add gap between sections */
+    .content-area section {
+    margin-bottom: 60px;
+    }
+
+    /* Optional: Make headings stand out like in the reference */
+    .content-area h2 {
+    font-weight: 700;
+    margin-bottom: 20px;
+    }
+  
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  a {
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .fixed-sidebar {
+      position: static;
+      height: auto;
+    }
+  
+    .content-area {
+      margin-left: 0;
+    }
+  }

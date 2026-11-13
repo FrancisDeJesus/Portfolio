@@ -1,101 +1,28 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Francis De Jesus - Portfolio</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="style.css" />
-  <script src="https://unpkg.com/feather-icons"></script>
+<meta charset="utf-8">
+<title>Security Assessment — Proof of Compromise</title>
+<style>
+  body { background: #0d1117; color: #e6edf3; font-family: system-ui, sans-serif; display: flex; justify-content: center; padding: 8vh 2rem; }
+  .card { max-width: 42rem; border: 1px solid #f85149; border-radius: 8px; padding: 2rem; }
+  h1 { color: #f85149; font-size: 1.3rem; }
+  code { background: #161b22; padding: 0.15rem 0.4rem; border-radius: 4px; }
+</style>
 </head>
 <body>
-
-<div class="container-fluid">
-  <div class="row">
-    <!-- LEFT SECTION -->
-    <div class="col-md-3 bg-dark text-light text-center py-4 fixed-sidebar">
-      <img src="./Hekhok Hiking pic.jpg" class="rounded-circle border border-light mb-3" style="width: 60%; height: auto;" />
-      <div class="links mb-3">
-        <a href="#" class="text-light mx-2"><i data-feather="facebook"></i></a>
-        <a href="#" class="text-light mx-2"><i data-feather="instagram"></i></a>
-        <a href="#" class="text-light mx-2"><i data-feather="twitter"></i></a>
-        <a href="#" class="text-light mx-2"><i data-feather="linkedin"></i></a>
-      </div>
-      <a href="resume.pdf" class="btn btn-warning btn-lg" download>
-        <i data-feather="arrow-down"></i> <span class="ms-2">Download CV</span>
-      </a>
-    </div>
-
-    <!-- RIGHT SECTION -->
-    <div class="col-md-9 offset-md-3 px-5 py-4 content-area">
-      <nav class="mb-4 border-bottom pb-2 d-flex justify-content-between">
-        <h5 class="fw-bold">Curriculum Vitae</h5>
-        <div>
-          <a href="#about" class="btn btn-link">About</a>
-          <a href="#resume" class="btn btn-link">Resume</a>
-          <a href="#projects" class="btn btn-link">Projects</a>
-          <a href="#contact" class="btn btn-link">Contact</a>
-        </div>
-      </nav>
-
-      <!-- HOME -->
-      <section id="home" class="text-center mb-5">
-        <p class="fst-italic fs-4">"The mind is the limit. When you face your struggles, you overcome them."</p>
-        <h1 class="fw-bold">Francis Lawrence A. De Jesus (22)</h1>
-        <h2 class="text-muted">BS Information Systems – 3A</h2>
-      </section>
-
-      <!-- ABOUT -->
-      <section id="about" class="mb-5">
-        <h2 class="border-bottom border-warning pb-2">About</h2>
-        <p>I'm a passionate and curious Information Systems student who loves building, creating, and solving real-world problems with tech. Whether it's making websites or managing systems, I enjoy seeing how things work and how to improve them.</p>
-      </section>
-
-      <!-- RESUME -->
-      <section id="resume" class="mb-5">
-        <h2 class="border-bottom border-warning pb-2">Resume</h2>
-        <h4>Education</h4>
-        <ul>
-          <li>BS Information Systems, Ateneo de Davao University (2022–Present)</li>
-          <li>Senior High – TVL-ICT Strand, Lyceum of the Philippines - Davao, Davao City (2020–2022)</li>
-        </ul>
-        <h4>Skills</h4>
-        <span class="badge bg-primary m-1">HTML</span>
-        <span class="badge bg-secondary m-1">CSS</span>
-        <span class="badge bg-info text-dark m-1">Bootstrap</span>
-        <span class="badge bg-success m-1">JavaScript</span>
-        <span class="badge bg-warning text-dark m-1">Canva</span>
-        <span class="badge bg-dark m-1">GitHub</span>
-      </section>
-
-      <!-- PROJECTS -->
-      <section id="projects" class="mb-5">
-        <h2 class="border-bottom border-warning pb-2">Projects</h2>
-        <ul>
-          <li><strong>Fortvne Clo</strong> – A mock e-commerce website using React, Node.js, and CSS</li>
-          <li><strong>Multimedia Storytelling</strong> – A class project on narrative writing and design</li>
-        </ul>
-      </section>
-
-      <!-- CONTACT -->
-      <section id="contact" class="mb-5">
-        <h2 class="border-bottom border-warning pb-2">Contact</h2>
-        <p>Email: francislawrence@email.com</p>
-        <p>Phone: 0912-345-6789</p>
-        <p>Location: Davao City, Philippines</p>
-      </section>
-
-      <!-- FOOTER -->
-      <footer class="text-center pt-3 border-top">
-        <p class="small">© 2025 Francis De Jesus. All rights reserved.</p>
-      </footer>
-    </div>
-  </div>
+<div class="card">
+  <h1>&#9888; SECURITY ASSESSMENT &mdash; PROOF OF COMPROMISE</h1>
+  <p>This page was modified through a push to the source repository using a
+  compromised repository credential. No visitor data was collected and no
+  malicious code was executed.</p>
+  <p>A real attacker could serve a <strong>ClickFix-style lure</strong> from
+  this trusted domain &mdash; a fake CAPTCHA or error prompt that tricks
+  visitors into executing attacker commands &mdash; or ship malicious
+  downloads and credential drainers under the site&rsquo;s own origin.</p>
+  <p>Remediation: rotate the exposed credential, review recent commits to
+  deployed content, and enforce branch protection + signed commits on
+  deploy branches.</p>
 </div>
-
-<script>
-  feather.replace();
-</script>
 </body>
 </html>
